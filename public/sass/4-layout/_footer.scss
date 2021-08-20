@@ -1,0 +1,36 @@
+footer {
+    height: 5em;
+    background: $dark-700;
+    // max-width: 1000px;
+    
+}
+
+.social {
+    display: flex;
+    height: 100%;
+    
+    svg {
+        fill: white;
+        height: 4em;
+        width: 4em;
+        transition: .125s ease-in-out;
+    }
+
+    &__facebook {
+        &:hover {
+            fill: hsl(221, 44%, 41%);
+        }
+    }
+
+    &__instagram {
+        &:hover {
+            fill: #bc2a8d;
+        }
+    }
+
+    &__youtube {
+        &:hover {
+            fill: red;
+        }
+    }
+}

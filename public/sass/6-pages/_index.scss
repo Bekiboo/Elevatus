@@ -1,0 +1,218 @@
+.mission-statement {
+  display: grid;
+  place-items: center;
+  text-align: center;
+
+  h2 {
+    color: $primary-600;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 0.25em;
+    @include respond(tab-port) {
+      font-size: 3rem;
+      margin-bottom: 0;
+    }
+  }
+
+  h3 {
+    color: $dark-900;
+    font-weight: 400;
+    max-width: 30ch;
+    @include respond(tab-port) {
+      font-size: 1.75rem;
+      line-height: 1.5;
+    }
+  }
+
+  span {
+    height: $line-height;
+    width: 50%;
+    background-color: $primary-600;
+    margin: 1em 0;
+  }
+
+  p {
+    color: $dark-800;
+    max-width: 60ch;
+    @include respond(tab-port) {
+      font-size: 1.25rem;
+    }
+  }
+
+  b {
+    font-weight: 600;
+  }
+}
+
+.infographic {
+  display: flex;
+  flex-direction: column;
+  color: $dark-800;
+
+  @include respond(tab-port) {
+    & > div {
+      display: flex;
+      justify-content: space-evenly;
+    }
+  }
+
+  > h2 {
+    text-align: center;
+    color: $primary-600;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 0.25em;
+    @include respond(tab-port) {
+      font-size: 3rem;
+      margin-bottom: 10rem;
+    }
+  }
+
+  img {
+    max-width: 50%;
+    max-height: 8em;
+  }
+
+  h2 {
+    font-size: 2.25rem;
+    color: $blue-600;
+    text-transform: uppercase;
+    width: 18rem;
+    margin: 0 auto;
+  }
+
+  &__card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    @include respond(tab-port) {
+      padding: 1em 0;
+    }
+    max-width: 20rem;
+    margin: 0 auto;
+
+    h3 {
+      font-size: 3rem;
+    }
+
+    em {
+      font-style: unset;
+      font-weight: 700;
+    }
+
+    p {
+      max-width: 17ch;
+    }
+  }
+
+  &--dark,
+  &--light {
+    h4 {
+      font-weight: 300;
+      width: 18rem;
+      margin: 0 auto;
+      line-height: 1.2;
+    }
+  }
+
+  &--dark {
+    .infographic__card {
+      div {
+        text-align: right;
+        line-height: 1.2;
+      }
+
+      &:nth-of-type(even) {
+        flex-direction: row-reverse;
+        div {
+          text-align: left;
+        }
+      }
+
+      @include respond(tab-port) {
+        flex-direction: row-reverse;
+        div {
+          text-align: left;
+        }
+      }
+    }
+  }
+
+  &--light {
+    margin-top: 4em;
+    @include respond(tab-port) {
+      margin-top: 0;
+    }
+    h2 {
+      text-align: right;
+    }
+    //
+    h4 {
+      text-align: right;
+    }
+
+    h3 {
+      font-size: 1.75rem;
+    }
+
+    .infographic__card {
+      div {
+        text-align: right;
+        line-height: 1.2;
+      }
+
+      &:nth-of-type(odd) {
+        flex-direction: row-reverse;
+        div {
+          text-align: left;
+        }
+        @include respond(tab-port) {
+          flex-direction: row;
+          div {
+            text-align: right;
+          }
+        }
+      }
+    }
+  }
+}
+
+.donation {
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    color: $blue-700;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  img {
+    width: 100%;
+    max-height: 250px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  p {
+    color: $dark-900;
+    max-width: 50ch;
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    @include respond(tab-port) {
+      display: flex;
+      flex-direction: unset;
+
+      img {
+      }
+      &--text {
+        width: 100%;
+        padding: 1.5em;
+      }
+    }
+  }
+}
