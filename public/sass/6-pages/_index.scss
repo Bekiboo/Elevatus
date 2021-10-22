@@ -1,11 +1,16 @@
 .mission-statement {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   place-items: center;
   text-align: center;
 
+  > * {
+    margin: 0.2em 0;
+  }
+
   h2 {
     color: $primary-600;
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-transform: uppercase;
     margin-bottom: 0.25em;
     @include respond(tab-port) {
@@ -47,24 +52,12 @@
 .infographic {
   display: flex;
   flex-direction: column;
-  color: $dark-800;
+  color: $dark-700;
 
   @include respond(tab-port) {
     & > div {
       display: flex;
       justify-content: space-evenly;
-    }
-  }
-
-  > h2 {
-    text-align: center;
-    color: $primary-600;
-    font-size: 2rem;
-    text-transform: uppercase;
-    margin-bottom: 0.25em;
-    @include respond(tab-port) {
-      font-size: 3rem;
-      margin-bottom: 10rem;
     }
   }
 
@@ -75,7 +68,7 @@
 
   h2 {
     font-size: 2.25rem;
-    color: $blue-600;
+    color: $blue-500;
     text-transform: uppercase;
     width: 18rem;
     margin: 0 auto;
@@ -175,6 +168,28 @@
         }
       }
     }
+  }
+}
+
+.showroom {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    font-size: 2.5rem;
+    color: $honey-550;
+    @include respond(tab-port) {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+  }
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
 }
 

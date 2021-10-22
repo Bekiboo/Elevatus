@@ -225,10 +225,15 @@ header {
     .nav__item--sponsor {
       padding: 0.25em 0.5em;
       border-radius: 5em;
-      background-color: $salmon;
+      background-color: $interactive-400;
+      border: .125rem solid white;
+      box-shadow: $bs-light;
       transition: background-color .3s;
       &:hover {
-        background: $salmon-hover;
+        background: $interactive-500;
+      }
+      &:active {
+        box-shadow: unset;
       }
       a {
         color: white;

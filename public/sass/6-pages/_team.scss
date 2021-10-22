@@ -23,7 +23,7 @@
     overflow: hidden;
     h2 {
       // margin: 0 auto;
-      color: $blue-700;
+      color: $blue-600;
       font-weight: 300;
       font-size: 2rem;
       @include respond(tab-port) {
@@ -34,7 +34,7 @@
     span {
       width: 95%;
       height: $line-height;
-      background: $blue-700;
+      background: $blue-600;
       margin-bottom: 1.5rem;
     }
   }

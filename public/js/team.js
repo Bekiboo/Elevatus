@@ -9,23 +9,23 @@ const board = [
   {
     firstName: 'Liam',
     lastName: 'Smith',
-    role: 'Program Director',
+    role: 'Governing<br>Member',
     picturePath: 'img/liam_smith.jpg',
     interests: ['Law Intern', 'Bôgôsy'],
   },
   {
     firstName: 'Zachary',
     lastName: 'Knight',
-    role: 'Secretary',
+    role: 'Governing<br>Member',
     picturePath: 'img/zachary_knight.jpg',
     interests: ['Manager', 'Lemur Magnet'],
   },
   {
-    firstName: 'Walter',
-    lastName: 'White',
-    role: 'R&D Director',
-    picturePath: 'img/walter_white.jpg',
-    interests: ['Chemist', 'Pizza Thrower'],
+    firstName: 'Nathan',
+    lastName: 'Haynie',
+    role: 'Governing<br>Member',
+    picturePath: 'img/nathan_haynie.jpg',
+    interests: [],
   },
   {
     firstName: 'Spencer',
@@ -76,11 +76,11 @@ const educationTeam = [
     interests: ['Soccer Player', 'Best Smile Award'],
   },
   {
-    firstName: 'Ravaka',
-    lastName: 'Ramiaramanana',
+    firstName: 'Onja',
+    lastName: 'Rahanitriniavo',
     role: 'French Teacher',
-    picturePath: 'img/ravaka_ramiaramanana.jpg',
-    interests: ['Educator', 'Traditionalist'],
+    picturePath: 'img/onja_rahanitriniavo.jpg',
+    interests: ['Educator', 'Smile Dispenser'],
   },
 ]
 
@@ -97,7 +97,7 @@ const logisticsTeam = [
     lastName: 'Razainasolo',
     role: 'Cook',
     picturePath: 'img/vero_razainasolo.jpg',
-    interests: ['Singer', 'Smile Dispenser'],
+    interests: ['Singer', 'Gourmet'],
   },
 ]
 

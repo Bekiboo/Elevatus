@@ -28,7 +28,3 @@ const changeNavOnScroll = (entries, observer) => {
 
 const heroObserver = new IntersectionObserver(changeNavOnScroll, heroOptions)
 heroObserver.observe(hero)
-
-
-// Sections Intersection Observer
-// const targetEl = document.querySelector('[data-target]')

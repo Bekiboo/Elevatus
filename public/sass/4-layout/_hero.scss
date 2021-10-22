@@ -146,12 +146,14 @@
   text-align: center;
   transition: 0.25s;
   background: $interactive-400;
+  border: .15rem solid white;
+  // background: $honey-600;
   border-radius: 100px;
   font-family: 'Poppins', sans-serif;
   cursor: pointer;
 
   &:hover {
-    background: $interactive-300;
+    background: $interactive-500;
   }
 
   span {
