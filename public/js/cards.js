@@ -6,8 +6,8 @@ programCards = [
     title: 'Food Distribution',
     bodyText:
       '<p>A hungry child is a child who will have a difficult time focusing at school.</p>\
-      <p>In 2020, Elevatus distributed <b>21,600 meals</b> at the Ambohidranomanga Junior School, preventing dozens of children to go malnourished.</p>\
-      <p>With your help we hope to double this number in 2022.</p>',
+      <p>In 2020, Elevatus distributed <b>21,600 meals</b> at the Ambohidranomanga Junior School, preventing dozens of children from going malnourished.</p>\
+      <p>With your help, we hope to double this number in 2022.</p>',
     donateLink: 'donate.html',
     programLink: 'programs.html',
     imgPath: 'img/food_distribution.jpg',
@@ -16,8 +16,8 @@ programCards = [
   {
     title: 'School Supplies',
     bodyText:
-      '<p>Each year, Elevatus pays for the tuition and the school supplies of every sponsored children, and distributes notebooks to all children.</p>\
-      <p>We also make sure throughout the year that their school supplies are updated and replenished</p>\
+      '<p>Each year, Elevatus pays for the tuition and the school supplies of every sponsored children and distributes notebooks to all children.</p>\
+      <p>Throughout the year, we also make sure that their school supplies are updated and replenished</p>\
       ',
     donateLink: 'donate.html',
     programLink: 'programs.html',
@@ -29,7 +29,7 @@ programCards = [
     bodyText:
       '<p>At Elevatus we firmly believe that children need to explore different crafts, especially when living in rural areas.</p>\
       <p>Every child at the school is able to take a sewing class, throughout the year with Felana, who is also their math tutor.</p>\
-      <p>With Elevatus growing and gaining new sponsors, we will propose other trade classes like carpentry, cooking, etc.</p>',
+      <p>As Elevatus grows and gains new sponsors, we will introduce additional trade classes, such as carpentry, cooking, and others!</p>',
     donateLink: 'donate.html',
     programLink: 'programs.html',
     imgPath: 'img/sewing_classes.jpg',
@@ -38,8 +38,8 @@ programCards = [
   {
     title: 'Tutoring Classes',
     bodyText:
-      '<p>Every Wednesday afternoon, all children can attend tutoring classes for 3 hours.</p>\
-      <p>Despite thoses classes not being mandatory, almost every children from the junior school come each week, and even a few students from the near-by high school.</p>\
+      '<p>Every Wednesday afternoon, students have the option to attend tutoring classes for 3 hours.</p>\
+      <p>Despite tutoring classes not being mandatory, almost every child from the junior school attends weekly. A few students from the nearby high school join as well!</p>\
       <p>We need your help to increase the number of teachers, and even to build new classrooms to hold all those children.</p>',
     donateLink: 'donate.html',
     programLink: 'programs.html',
@@ -49,7 +49,7 @@ programCards = [
   {
     title: 'School Renovations',
     bodyText:
-      '<p>After carrying extension projects in 4 schools, Elevatus started the renovation of a century old junior school in 2018.</p>\
+      '<p>Since 2016, Elevatus has completed extension projects (adding of new classrooms and libaries) at 4 schools, and has entirely renovated a 100-year old junior school.</p>\
       <p>Elevatus still takes care of these historical buildings, but we would like to continue improving and expanding to host even more children.</p>',
     donateLink: 'donate.html',
     programLink: 'programs.html',
@@ -59,8 +59,8 @@ programCards = [
   {
     title: 'Activities',
     bodyText:
-      "<p>At least once a month, we have a special activity for the sponsored children. It can be anything, from a trip to the zoo, to a dance class or a volley-ball tournament.</p>\
-      <p>It's an amazing opportunity for those children who never have the occasion to do such activities in their village.</p>",
+      "<p>At least once a month, Elevatus organizes a special activity for the sponsored children. These activities range from a trip to the zoo to a dance class to a volleyball tournament.</p>\
+      <p>It’s an amazing experience for these students who don’t typically have the opportunity for such activities in their villages.</p>",
     donateLink: 'donate.html',
     programLink: 'programs.html',
     imgPath: 'img/activities.jpg',
