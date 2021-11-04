@@ -1,0 +1,87 @@
+footer {
+    display: flex;
+    justify-content: center;
+    background: $dark-700;
+    
+    .footer__container {
+        width: 100%;
+        height: 100%;
+        padding: 1.25rem;
+        & > * {
+            margin-bottom: 1rem;
+        }
+
+        @include respond(tab-port) {
+            display: flex;
+            justify-content: space-between;
+        }
+        @include respond(desktop) {
+            max-width: 60rem;
+        }
+    }
+
+    h5 {
+        font-size: 1.25rem;
+    }
+
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    &__icons {
+        display: flex;
+        justify-content: left;
+    }
+    
+    svg {
+        fill: white;
+        height: 4em;
+        width: 4em;
+        transition: .3s ease-in-out;
+        border-radius: 25%;
+        &:hover {
+            fill: $interactive-400;
+            transform: translateY(-.25rem);
+        }
+    }
+}
+
+#mc_embed_signup {
+    form {
+        background: white;
+        padding: .5rem;
+    }
+}
+#mc_embed_signup_scroll {
+        position: relative;
+    .mc-field-group {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        input {
+            border: none;
+            height: 3rem;
+            padding-left: .5rem;
+        }
+    }
+    .clear {
+        position: absolute;
+        top: .5rem;
+        right: .5rem;
+    }
+    .clear input{
+        border: none;
+        background: $interactive-500;
+        color: white;
+        font-weight: 900;
+        width: 2rem;
+        height: 2rem;
+        cursor: pointer;
+        transition: .3s;
+        &:hover {
+            background: $interactive-400;
+        }
+    }
+}

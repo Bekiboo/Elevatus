@@ -4,34 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Roboto:wght@100;300;400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+		rel="stylesheet">
     <link rel="stylesheet" href="dist/css/main.css" />
     <link rel="shortcut icon" type="image/png" href="favicon.png" />
 
-    <title>Home - Elevatus</title>
-
-    <!-- Mail Chimp -->
-    <script id="mcjs">
-      !(function (c, h, i, m, p) {
-        ;(m = c.createElement(h)),
-          (p = c.getElementsByTagName(h)[0]),
-          (m.async = 1),
-          (m.src = i),
-          p.parentNode.insertBefore(m, p)
-      })(
-        document,
-        'script',
-        'https://chimpstatic.com/mcjs-connected/js/users/6e762d4dd84810ed9462316c5/4520fc55dc11ff8877ccf1d3a.js'
-      )
-    </script>
+    <title>Donate - Elevatus</title>
   </head>
 
   <body>
@@ -53,7 +35,7 @@
         <nav class="nav" id="js-nav">
           <ul class="nav__list">
             <li class="nav__item">
-              <a class="nav__a nav__a--active" href="index.html">Home</a>
+              <a class="nav__a" href="index.html">Home</a>
             </li>
             <li class="nav__item">
               <a class="nav__a" href="team.html">Our Team</a>
@@ -62,7 +44,9 @@
               <a class="nav__a" href="programs.html">Programs</a>
             </li>
             <li class="nav__item nav__item--sponsor">
-              <a class="nav__a nav__a--sponsor" href="donate.html">Donate</a>
+              <a class="nav__a nav__a--active nav__a--sponsor nav__a--sponsor--active" href="donate.html"
+                >Donate</a
+              >
             </li>
           </ul>
         </nav>
@@ -71,154 +55,38 @@
 
     <main>
       <!-- Hero -->
-      <div class="hero hero--index">
+      <div class="hero hero--team">
         <div class="container-section">
           <div class="texture"></div>
-          <video class="video-large" loop muted autoplay preload="auto">
-            <source src="img/Elevatus_loop_large.mp4" type="video/mp4" />
-          </video>
           <img
-            src="img/child_redhood_breaking_rocks.jpg"
+            src="img/under_construction.jpg"
             alt="Malagasy children studying and smiling"
           />
-          <div class="caption">
-            <h4>Fighting Child Labor in Madagascar</h4>
-            <h1>Because they deserve their <em>childhood</em> back</h1>
-            <div>
-              <a href="donate.html"
-                ><div class="ctaBtn">
-                  <span>Sponsor a child today</span>
-                </div></a
-              >
-            </div>
+          <div class="caption caption--team">
+            <h1>Donate</h1>
+            <h4>Under Construction</h4>
+            
           </div>
         </div>
       </div>
 
-      <!-- Mission Statement -->
-      <section class="bg-light-50">
-        <div class="container-section mission-statement">
-          <h2>Our Mission</h2>
-          <h3>
-            Preventing child labor in Madagascar through access to education
-          </h3>
-          <span class="line"></span>
-          <p>
-            Since 2016, Elevatus' mission has been to give children in
-            Madagascar the tools they need to avoid being trafficked, to end the
-            vicious cycle of generational poverty, and to be successful in life.
-          </p>
-        </div>
-      </section>
+    <input type="text" name="" id="text" />
+    <button id="textBtn">Donate</button>
 
-      <!-- INFOGRAPHIC -->
-      <section class="bg-light-100">
-        <div class="container-section home-infographic bg-light-50">
-          <div>
-            <!-- 1st Part -->
-            <div class="home-infographic--dark">
-              <h2>The Problem</h2>
-              <h4>What is the situation for children in Madagascar?</h4>
-              <div class="home-infographic__card">
-                <img src="img/SVG/icon-labor.svg" alt="" />
-                <div>
-                  <h3>47%</h3>
-                  <p>age 5 to 17 are engaged in<br />Child Labor</p>
-                </div>
-              </div>
-              <div class="home-infographic__card">
-                <img src="img/SVG/icon-hungry.svg" alt="" />
-                <div>
-                  <h3>Half</h3>
-                  <p>suffer from <br />Chronic Malnutrition</p>
-                </div>
-              </div>
-              <div class="home-infographic__card">
-                <img src="img/SVG/icon-married.svg" alt="" />
-                <div>
-                  <h3>37%</h3>
-                  <p>are married <br />Before the Age of 18</p>
-                </div>
-              </div>
-            </div>
-
-            <!-- 2nd Part -->
-            <div class="home-infographic--light">
-              <h2>Our Solution</h2>
-              <h4>What does Elevatus provide when you sponsor a child?</h4>
-              <div class="home-infographic__card">
-                <img src="img/SVG/icon-education.svg" alt="" />
-                <div>
-                  <h3>EDUCATION</h3>
-                  <p>
-                    School <em>tuition</em>, <br />
-                    School <em>supplies</em>, <br />
-                    <em>tutoring</em> classes <br />
-                    and <em>trade</em> classes <br />
-                  </p>
-                </div>
-              </div>
-              <div class="home-infographic__card">
-                <img src="img/SVG/icon-wellfed.svg" alt="" />
-                <div>
-                  <h3>NUTRITION</h3>
-                  <p>
-                    Two <em>healthy meals</em> <br />
-                    every school day
-                  </p>
-                </div>
-              </div>
-              <div class="home-infographic__card">
-                <img src="img/SVG/icon-friends.svg" alt="" />
-                <div>
-                  <h3>SECURITY</h3>
-                  <p>
-                    A <em>safe place</em> <br />
-                    to grow and <br />
-                    make friends
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- PROGRAMS-->
-
-      <section class="bg-light-50">
-        <div class="container-section home-programs">
-          <h2>OUR PROGRAMS</h2>
-
-          <div class="cards-container" id="programCardsContainer">
-            <!-- Cards Generated in cards.js -->
-          </div>
-        </div>
-      </section>
-
-      <!-- DONATION -->
-      <section class="bg-light-100">
-        <div class="container-section home-donation">
-          <div class="home-donation__body">
-            <img src="img/SVG/pie chart elevatus.svg" alt="" />
-            <div class="home-donation__body--text">
-              <h2>Where does your donation go?</h2>
-              <p>
-                At Elevatus, we know where our priorities are. We don’t
-                maintain office space in the US. We keep our overhead and
-                operating costs to a minimum. And all of our governing board
-                members volunteer their time to the foundation. <br />You can
-                rest assured that your donations are used to best serve the
-                interests of the children in Madagacar.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
+    <div id="smart-button-container">
+      <div style="text-align: center">
+        <div id="paypal-button-container"></div>
+      </div>
+    </div>
+    <script
+      src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD"
+      data-sdk-integration-source="button-factory"
+    ></script>
+    <script src="js/paypal.js"></script>
 
     <footer>
       <div class="footer__container">
+        
         <!-- Begin Mailchimp Signup Form -->
         <div id="mc_embed_signup">
           <h5>EMAIL NEWSLETTER SIGNUP</h5>
@@ -332,11 +200,12 @@
           </div>
         </div>
 
+        
         <div class="copyright">© 2021 Elevatus Foundation</div>
       </div>
     </footer>
 
+
     <script src="js/app.js"></script>
-    <script src="js/cards.js"></script>
   </body>
 </html>
